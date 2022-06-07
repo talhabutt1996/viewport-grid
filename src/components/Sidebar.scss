@@ -1,0 +1,44 @@
+// grid styling 
+.grid-class{
+    display: grid;
+    background: green;
+    width: 100vw;
+   height: calc(100vh - 10px);
+    padding: 5px;
+    gap: 5px;
+    & > * {
+      border: 1px solid green;
+      box-sizing: border-box;
+    }
+  }
+  label{
+    color: black;
+  }
+  //input Styling
+  .input{
+    position: relative;
+    top: 30px;
+    left: 10px;
+  }
+  .row{
+  display: block;
+  }
+  .column{
+  display: block;
+  }
+ .box{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+  }
+  //Burger Menu styling
+  .Maindiv{
+    display: flex;
+    .inputSection{
+      background: blue;
+      width: 25px;
+    }
+    .inputSection.active{
+      width: 250px;
+    }
+  }
